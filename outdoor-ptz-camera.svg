@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="184" viewBox="0 0 200 184" role="img" aria-labelledby="title desc">
+  <title id="title">Outdoor PTZ Camera</title>
+  <desc id="desc">Outdoor PTZ camera symbol with the cone reversed to widen toward the front rotation handle.</desc>
+  <g fill="none" stroke="#707070" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Main camera body -->
+    <path d="M49 28 H111 L126 38 V95 L111 104 H49 C43.5 104 40 100.5 40 95 V37 C40 31.5 43.5 28 49 28 Z"/>
+    <!-- Body/front division -->
+    <path d="M111 28 V104"/>
+    <!-- Reversed cone: apex at camera body, wide end at front -->
+    <path d="M126 66.5 L166 38 V97 Z"/>
+    <!-- Front rotation handle / rounded face -->
+    <path d="M166 38 C170 38 172 41 172 45 V90 C172 94 170 97 166 97 C162 97 160 94 160 90 V45 C160 41 162 38 166 38 Z"/>
+  </g>
+  <text x="100" y="162" text-anchor="middle" fill="#000000"
+        font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="400">PTZ</text>
+</svg>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="160" viewBox="0 0 120 160" role="img" aria-labelledby="title desc">
+  <title id="title">Outdoor radio antenna symbol</title>
+  <desc id="desc">Open inverted triangular antenna with centered vertical line, apex crossbar, and lower mast.</desc>
+  <g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="miter" vector-effect="non-scaling-stroke">
+    <path d="M20 16 H100 L60 112 Z"/>
+    <path d="M60 16 V150"/>
+    <path d="M40 112 H80"/>
+  </g>
+</svg>

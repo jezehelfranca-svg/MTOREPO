@@ -1,0 +1,78 @@
+{
+  "version": "1.0",
+  "units": "m",
+  "materials": [
+    {
+      "id": "mat-1",
+      "name": "Cat 6A UTP Horizontal Cable",
+      "type": "path",
+      "color": "#3b82f6",
+      "unit": "m",
+      "layer": "E-TC-CABL-ISP",
+      "waste": 10,
+      "slack": 3,
+      "isAerial": false,
+      "w": 0.2,
+      "T": 500,
+      "symbol": "circle"
+    },
+    {
+      "id": "mat-4",
+      "name": "Wireless Access Point (AP)",
+      "type": "point",
+      "color": "#f59e0b",
+      "unit": "pcs",
+      "layer": "E-TC-EQUP-WAP",
+      "waste": 0,
+      "slack": 3,
+      "isAerial": false,
+      "w": 0,
+      "T": 1,
+      "symbol": "wap"
+    },
+    {
+      "id": "mat-5",
+      "name": "Workstation Data Outlet",
+      "type": "point",
+      "color": "#10b981",
+      "unit": "pcs",
+      "layer": "E-TC-WALL-OUTL",
+      "waste": 0,
+      "slack": 3,
+      "isAerial": false,
+      "w": 0,
+      "T": 1,
+      "symbol": "outlet"
+    },
+    {
+      "id": "mat-1782980865360",
+      "name": "Wall Mounted IP Phone",
+      "type": "point",
+      "color": "#f75f5f",
+      "unit": "pcs",
+      "layer": "DATA",
+      "waste": 0,
+      "slack": 0,
+      "isAerial": false,
+      "w": 0.2,
+      "T": 500,
+      "symbol": "custom_intercom_phone_symbol_1782980840069",
+      "coverage": null
+    },
+    {
+      "id": "mat-1782980942557",
+      "name": "Desk Mounted IP Phone",
+      "type": "point",
+      "color": "#8b5cf6",
+      "unit": "pcs",
+      "layer": "DATA",
+      "waste": 0,
+      "slack": 0,
+      "isAerial": false,
+      "w": 0.2,
+      "T": 500,
+      "symbol": "custom_intercom_phone_symbol_1782980941214",
+      "coverage": null
+    }
+  ]
+}

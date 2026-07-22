@@ -1,0 +1,53 @@
+{
+  "version": "1.0",
+  "units": "m",
+  "materials": [
+    {
+      "id": "mat-7",
+      "name": "Splice Closure / Cabinet",
+      "type": "point",
+      "color": "#a855f7",
+      "unit": "pcs",
+      "layer": "U-TC-EQUP-CLOS",
+      "waste": 0,
+      "slack": 5,
+      "isAerial": false,
+      "w": 0,
+      "T": 1,
+      "symbol": "closure",
+      "category": "Network"
+    },
+    {
+      "id": "mat-1784684072945",
+      "name": "Bidirectional Amplifier (BDA)",
+      "type": "point",
+      "category": "Radio System",
+      "color": "#ee5858",
+      "unit": "pcs",
+      "layer": "Radio System",
+      "waste": 0,
+      "slack": 0,
+      "isAerial": false,
+      "w": 0.2,
+      "T": 500,
+      "symbol": "custom_bda-bi-directional-amplifier_1784684044227",
+      "coverage": null
+    },
+    {
+      "id": "mat-1784693968080",
+      "name": "Indoor Omnidirectional Antenna",
+      "type": "point",
+      "category": "Radio System",
+      "color": "#ee5858",
+      "unit": "pcs",
+      "layer": "Radio System",
+      "waste": 0,
+      "slack": 0,
+      "isAerial": false,
+      "w": 0.2,
+      "T": 500,
+      "symbol": "custom_indoor-omni-antenna_1784693880744",
+      "coverage": null
+    }
+  ]
+}

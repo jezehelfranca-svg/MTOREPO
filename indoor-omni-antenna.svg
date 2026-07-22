@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" role="img" aria-labelledby="title desc">
+  <title id="title">Indoor omni antenna symbol</title>
+  <desc id="desc">Unfilled circular antenna with a centered short vertical stem at the top.</desc>
+  <g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="miter" vector-effect="non-scaling-stroke">
+    <path d="M60 8 V28"/>
+    <circle cx="60" cy="58" r="30"/>
+  </g>
+</svg>
