@@ -1,0 +1,408 @@
+{
+  "version": "1.1",
+  "units": "m",
+  "materials": [
+    {
+      "id": "mat-1",
+      "name": "Cat 6A UTP Horizontal Cable",
+      "type": "path",
+      "color": "#3b82f6",
+      "unit": "m",
+      "layer": "E-TC-CABL-ISP",
+      "waste": 10,
+      "slack": 3,
+      "isAerial": false,
+      "w": 0.2,
+      "T": 500,
+      "symbol": "circle",
+      "category": "Cables"
+    },
+    {
+      "id": "mat-2",
+      "name": "Backbone Fiber Cable",
+      "type": "path",
+      "color": "#ec4899",
+      "unit": "m",
+      "layer": "U-TC-CABL-OSP",
+      "waste": 10,
+      "slack": 5,
+      "isAerial": true,
+      "w": 0.2,
+      "T": 500,
+      "symbol": "circle",
+      "category": "Cables"
+    },
+    {
+      "id": "mat-3",
+      "name": "OSP Underground Duct",
+      "type": "path",
+      "color": "#f97316",
+      "unit": "m",
+      "layer": "U-TC-COND-OSP",
+      "waste": 5,
+      "slack": 0,
+      "isAerial": false,
+      "w": 0,
+      "T": 1,
+      "symbol": "circle",
+      "category": "Containment"
+    },
+    {
+      "id": "mat-4",
+      "name": "Wireless Access Point (AP)",
+      "type": "point",
+      "color": "#f59e0b",
+      "unit": "pcs",
+      "layer": "E-TC-EQUP-WAP",
+      "waste": 0,
+      "slack": 3,
+      "isAerial": false,
+      "w": 0,
+      "T": 1,
+      "symbol": "wap",
+      "category": "Network"
+    },
+    {
+      "id": "mat-5",
+      "name": "Workstation Data Outlet",
+      "type": "point",
+      "color": "#10b981",
+      "unit": "pcs",
+      "layer": "E-TC-WALL-OUTL",
+      "waste": 0,
+      "slack": 3,
+      "isAerial": false,
+      "w": 0,
+      "T": 1,
+      "symbol": "outlet",
+      "category": "Network"
+    },
+    {
+      "id": "mat-6",
+      "name": "Splice Vault / Handhole",
+      "type": "point",
+      "color": "#6366f1",
+      "unit": "pcs",
+      "layer": "U-TC-EQUP-MHHL",
+      "waste": 0,
+      "slack": 0,
+      "isAerial": false,
+      "w": 0,
+      "T": 1,
+      "symbol": "handhole",
+      "category": "Containment"
+    },
+    {
+      "id": "mat-7",
+      "name": "Splice Closure / Cabinet",
+      "type": "point",
+      "color": "#a855f7",
+      "unit": "pcs",
+      "layer": "U-TC-EQUP-CLOS",
+      "waste": 0,
+      "slack": 5,
+      "isAerial": false,
+      "w": 0,
+      "T": 1,
+      "symbol": "closure",
+      "category": "Network"
+    },
+    {
+      "id": "mat-1782992183745",
+      "name": "Desktop Mounted IP Phone",
+      "type": "point",
+      "color": "#8b5cf6",
+      "unit": "m",
+      "layer": "Data",
+      "waste": 0,
+      "slack": 0,
+      "isAerial": false,
+      "w": 0.2,
+      "T": 500,
+      "symbol": "custom_indoor_telephone_1782992157874",
+      "coverage": null,
+      "category": "Telephony"
+    },
+    {
+      "id": "mat-1783511689594",
+      "name": "Cable Tray",
+      "type": "path",
+      "color": "#8b5cf6",
+      "unit": "m",
+      "layer": "SCS",
+      "waste": 20,
+      "slack": 0,
+      "isAerial": false,
+      "w": 0.2,
+      "T": 500,
+      "symbol": "circle",
+      "coverage": null,
+      "category": "Containment"
+    },
+    {
+      "id": "mat-1784532064712",
+      "name": "PAGA_Grounding Points",
+      "type": "point",
+      "color": "#2256bf",
+      "unit": "pcs",
+      "layer": "PAGA",
+      "waste": 0,
+      "slack": 0,
+      "isAerial": false,
+      "w": 0.2,
+      "T": 500,
+      "symbol": "circle",
+      "coverage": null,
+      "category": "PAGA"
+    },
+    {
+      "id": "mat-1785133331640",
+      "name": "PAGA LOUDSPEAKER - WALL/STRUCTURE MOUNTED \"A\" (6W)",
+      "type": "point",
+      "category": "PAGA",
+      "color": "#eab308",
+      "unit": "pcs",
+      "layer": "E-PA-EQUP-SPKR",
+      "waste": 0,
+      "slack": 0,
+      "isAerial": false,
+      "w": 0.2,
+      "T": 1,
+      "symbol": "paga_speaker_a",
+      "coverage": {
+        "type": "paga",
+        "enabled": true,
+        "spl": 121,
+        "sensitivity": 108,
+        "power": 20,
+        "ambientNoise": 80,
+        "targetMargin": 10,
+        "radiusM": 35.5,
+        "indoorAttenuation": false,
+        "dispersionAngle": 180,
+        "color": "#eab30844"
+      }
+    },
+    {
+      "id": "mat-1785133620148",
+      "name": "PAGA LOUDSPEAKER - WALL/STRUCTURE MOUNTED \"B\" (6W)",
+      "type": "point",
+      "category": "PAGA",
+      "color": "#e408e7",
+      "unit": "pcs",
+      "layer": "E-PA-EQUP-SPKR",
+      "waste": 0,
+      "slack": 0,
+      "isAerial": false,
+      "w": 0.2,
+      "T": 1,
+      "symbol": "paga_speaker_b",
+      "coverage": {
+        "type": "paga",
+        "enabled": true,
+        "spl": 121,
+        "sensitivity": 108,
+        "power": 20,
+        "ambientNoise": 80,
+        "targetMargin": 10,
+        "radiusM": 35.5,
+        "indoorAttenuation": false,
+        "dispersionAngle": 180,
+        "color": "#e708a144"
+      }
+    },
+    {
+      "id": "mat-1785134333454",
+      "name": "hss",
+      "type": "point",
+      "category": "PAGA",
+      "color": "#8b5cf6",
+      "unit": "pcs",
+      "layer": "PAGA",
+      "waste": 0,
+      "slack": 0,
+      "isAerial": false,
+      "w": 0.2,
+      "T": 500,
+      "symbol": "custom_hss_1783206608686",
+      "coverage": null
+    },
+    {
+      "id": "mat-1785134671066",
+      "name": "amp",
+      "type": "point",
+      "category": "PAGA",
+      "color": "#8b5cf6",
+      "unit": "pcs",
+      "layer": "PAGA",
+      "waste": 0,
+      "slack": 0,
+      "isAerial": false,
+      "w": 0.2,
+      "T": 500,
+      "symbol": "custom_amp_1783206408091",
+      "coverage": null
+    },
+    {
+      "id": "mat-1785135364181",
+      "name": "PAGA Cabinet A",
+      "type": "point",
+      "category": "PAGA",
+      "color": "#d5c262",
+      "unit": "pcs",
+      "layer": "PAGA",
+      "waste": 0,
+      "slack": 0,
+      "isAerial": false,
+      "w": 0.2,
+      "T": 500,
+      "symbol": "rack",
+      "coverage": null
+    },
+    {
+      "id": "mat-1785135403208",
+      "name": "PAGA System Cabinet B",
+      "type": "point",
+      "category": "PAGA",
+      "color": "#8b5cf6",
+      "unit": "pcs",
+      "layer": "PAGA",
+      "waste": 0,
+      "slack": 0,
+      "isAerial": false,
+      "w": 0.2,
+      "T": 500,
+      "symbol": "rack",
+      "coverage": null
+    },
+    {
+      "id": "mat-1785135892151",
+      "name": "PAGA System Cable",
+      "type": "path",
+      "category": "PAGA",
+      "color": "#f75ff2",
+      "unit": "m",
+      "layer": "PAGA",
+      "waste": 20,
+      "slack": 0,
+      "isAerial": false,
+      "w": 0.2,
+      "T": 500,
+      "symbol": "circle",
+      "coverage": null
+    },
+    {
+      "id": "mat-1785136530975",
+      "name": "CABLE TRAY",
+      "type": "path",
+      "category": "Containment",
+      "color": "#6c8fbc",
+      "unit": "m",
+      "layer": "PAGA",
+      "waste": 5,
+      "slack": 0,
+      "isAerial": false,
+      "w": 0.2,
+      "T": 500,
+      "symbol": "circle",
+      "coverage": null
+    }
+  ],
+  "customSvgSymbols": [
+    {
+      "key": "custom_speaker_1779999735942",
+      "name": "speaker",
+      "dataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPgogIDwhLS0gRGlhbW9uZCBzaGFwZSAtLT4KICA8cG9seWdvbiBwb2ludHM9IjMyLDQgNjAsMzIgMzIsNjAgNCwzMiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiLz4KICA8IS0tIFNwZWFrZXIgY29uZSBjaXJjbGUgLS0+CiAgPGNpcmNsZSBjeD0iMzIiIGN5PSIzMiIgcj0iOCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMyIvPgogIDwhLS0gQ2VudGVyIGRvdCAtLT4KICA8Y2lyY2xlIGN4PSIzMiIgY3k9IjMyIiByPSIzIiBmaWxsPSJjdXJyZW50Q29sb3IiIHN0cm9rZT0ibm9uZSIvPgo8L3N2Zz4K"
+    },
+    {
+      "key": "custom_Explosion_Proof_Indoor_Horn_Speaker_1782823708219",
+      "name": "Explosion Proof Indoor Horn Speaker",
+      "dataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2MCA2MCIgd2lkdGg9IjYwIiBoZWlnaHQ9IjYwIj4KICA8cmVjdCB4PSIxNCIgeT0iMTAiIHdpZHRoPSI4IiBoZWlnaHQ9IjMwIiBmaWxsPSIjMDAwMDAwIiBzdHJva2U9IiMwMDAwMDAiIHN0cm9rZS13aWR0aD0iMi41IiAvPgogIDxwb2x5Z29uIHBvaW50cz0iMjIsMTAgNDIsMCA0Miw1MCAyMiw0MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAwMDAwIiBzdHJva2Utd2lkdGg9IjIuNSIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgLz4KICA8dGV4dCB4PSI0NCIgeT0iNTUiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiMwMDAwMDAiPkVYPC90ZXh0Pgo8L3N2Zz4K"
+    },
+    {
+      "key": "custom_bda-bi-directional-amplifier_1784684044227",
+      "name": "bda-bi-directional-amplifier",
+      "dataUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTA2IiB2aWV3Qm94PSIwIDAgMTIwIDEwNiIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsbGVkYnk9InRpdGxlIGRlc2MiPgogIDx0aXRsZSBpZD0idGl0bGUiPkJEQSBiaS1kaXJlY3Rpb25hbCBhbXBsaWZpZXIgc3ltYm9sPC90aXRsZT4KICA8ZGVzYyBpZD0iZGVzYyI+Um91bmRlZCByZWN0YW5ndWxhciB0ZWxlY29tIHN5bWJvbCBsYWJlbGVkIEJEQS48L2Rlc2M+CiAgPHJlY3QgeD0iNyIgeT0iNyIgd2lkdGg9IjEwNiIgaGVpZ2h0PSI5MiIgcng9IjUiIHJ5PSI1IgogICAgICAgIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzY2NjY2NiIgc3Ryb2tlLXdpZHRoPSIxLjUiCiAgICAgICAgdmVjdG9yLWVmZmVjdD0ibm9uLXNjYWxpbmctc3Ryb2tlIi8+CiAgPHRleHQgeD0iNjAiIHk9IjY2IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIgogICAgICAgIGZpbGw9IiM2NjY2NjYiIGZvbnQtZmFtaWx5PSJBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmIgogICAgICAgIGZvbnQtc2l6ZT0iMzkiIGZvbnQtd2VpZ2h0PSIzMDAiIGxldHRlci1zcGFjaW5nPSIxIj5CREE8L3RleHQ+Cjwvc3ZnPgo="
+    },
+    {
+      "key": "custom_indoor-omni-antenna_1784693880744",
+      "name": "indoor-omni-antenna",
+      "dataUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIiB2aWV3Qm94PSIwIDAgMTIwIDEyMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsbGVkYnk9InRpdGxlIGRlc2MiPgogIDx0aXRsZSBpZD0idGl0bGUiPkluZG9vciBvbW5pIGFudGVubmEgc3ltYm9sPC90aXRsZT4KICA8ZGVzYyBpZD0iZGVzYyI+VW5maWxsZWQgY2lyY3VsYXIgYW50ZW5uYSB3aXRoIGEgY2VudGVyZWQgc2hvcnQgdmVydGljYWwgc3RlbSBhdCB0aGUgdG9wLjwvZGVzYz4KICA8ZyBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJzcXVhcmUiIHN0cm9rZS1saW5lam9pbj0ibWl0ZXIiIHZlY3Rvci1lZmZlY3Q9Im5vbi1zY2FsaW5nLXN0cm9rZSI+CiAgICA8cGF0aCBkPSJNNjAgOCBWMjgiLz4KICAgIDxjaXJjbGUgY3g9IjYwIiBjeT0iNTgiIHI9IjMwIi8+CiAgPC9nPgo8L3N2Zz4K"
+    },
+    {
+      "key": "custom_sp-surge-protection-enclosure_1784694274644",
+      "name": "sp-surge-protection-enclosure",
+      "dataUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEyMCIgaGVpZ2h0PSIxMDYiIHZpZXdCb3g9IjAgMCAxMjAgMTA2Ij48cmVjdCB4PSI3IiB5PSI3IiB3aWR0aD0iMTA2IiBoZWlnaHQ9IjkyIiByeD0iNSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNjY2NjY2IiBzdHJva2Utd2lkdGg9IjEuNSIvPjx0ZXh0IHg9IjYwIiB5PSI2NiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzY2NjY2NiIgZm9udC1mYW1pbHk9IkFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMzkiPlNQPC90ZXh0Pjwvc3ZnPg=="
+    },
+    {
+      "key": "custom_indoor-omni-antenna_1784706891055",
+      "name": "indoor-omni-antenna",
+      "dataUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIiB2aWV3Qm94PSIwIDAgMTIwIDEyMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsbGVkYnk9InRpdGxlIGRlc2MiPgogIDx0aXRsZSBpZD0idGl0bGUiPkluZG9vciBvbW5pIGFudGVubmEgc3ltYm9sPC90aXRsZT4KICA8ZGVzYyBpZD0iZGVzYyI+VW5maWxsZWQgY2lyY3VsYXIgYW50ZW5uYSB3aXRoIGEgY2VudGVyZWQgc2hvcnQgdmVydGljYWwgc3RlbSBhdCB0aGUgdG9wLjwvZGVzYz4KICA8ZyBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJzcXVhcmUiIHN0cm9rZS1saW5lam9pbj0ibWl0ZXIiIHZlY3Rvci1lZmZlY3Q9Im5vbi1zY2FsaW5nLXN0cm9rZSI+CiAgICA8cGF0aCBkPSJNNjAgOCBWMjgiLz4KICAgIDxjaXJjbGUgY3g9IjYwIiBjeT0iNTgiIHI9IjMwIi8+CiAgPC9nPgo8L3N2Zz4K"
+    },
+    {
+      "key": "custom_bda-bi-directional-amplifier_1784707026019",
+      "name": "bda-bi-directional-amplifier",
+      "dataUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTA2IiB2aWV3Qm94PSIwIDAgMTIwIDEwNiIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsbGVkYnk9InRpdGxlIGRlc2MiPgogIDx0aXRsZSBpZD0idGl0bGUiPkJEQSBiaS1kaXJlY3Rpb25hbCBhbXBsaWZpZXIgc3ltYm9sPC90aXRsZT4KICA8ZGVzYyBpZD0iZGVzYyI+Um91bmRlZCByZWN0YW5ndWxhciB0ZWxlY29tIHN5bWJvbCBsYWJlbGVkIEJEQS48L2Rlc2M+CiAgPHJlY3QgeD0iNyIgeT0iNyIgd2lkdGg9IjEwNiIgaGVpZ2h0PSI5MiIgcng9IjUiIHJ5PSI1IgogICAgICAgIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzY2NjY2NiIgc3Ryb2tlLXdpZHRoPSIxLjUiCiAgICAgICAgdmVjdG9yLWVmZmVjdD0ibm9uLXNjYWxpbmctc3Ryb2tlIi8+CiAgPHRleHQgeD0iNjAiIHk9IjY2IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIgogICAgICAgIGZpbGw9IiM2NjY2NjYiIGZvbnQtZmFtaWx5PSJBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmIgogICAgICAgIGZvbnQtc2l6ZT0iMzkiIGZvbnQtd2VpZ2h0PSIzMDAiIGxldHRlci1zcGFjaW5nPSIxIj5CREE8L3RleHQ+Cjwvc3ZnPgo="
+    },
+    {
+      "key": "custom_sp-surge-protection-enclosure_1784707357857",
+      "name": "sp-surge-protection-enclosure",
+      "dataUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEyMCIgaGVpZ2h0PSIxMDYiIHZpZXdCb3g9IjAgMCAxMjAgMTA2Ij48cmVjdCB4PSI3IiB5PSI3IiB3aWR0aD0iMTA2IiBoZWlnaHQ9IjkyIiByeD0iNSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNjY2NjY2IiBzdHJva2Utd2lkdGg9IjEuNSIvPjx0ZXh0IHg9IjYwIiB5PSI2NiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzY2NjY2NiIgZm9udC1mYW1pbHk9IkFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMzkiPlNQPC90ZXh0Pjwvc3ZnPg=="
+    },
+    {
+      "key": "custom_radio-outdoor-antenna_1784707473783",
+      "name": "radio-outdoor-antenna",
+      "dataUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTYwIiB2aWV3Qm94PSIwIDAgMTIwIDE2MCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsbGVkYnk9InRpdGxlIGRlc2MiPgogIDx0aXRsZSBpZD0idGl0bGUiPk91dGRvb3IgcmFkaW8gYW50ZW5uYSBzeW1ib2w8L3RpdGxlPgogIDxkZXNjIGlkPSJkZXNjIj5PcGVuIGludmVydGVkIHRyaWFuZ3VsYXIgYW50ZW5uYSB3aXRoIGNlbnRlcmVkIHZlcnRpY2FsIGxpbmUsIGFwZXggY3Jvc3NiYXIsIGFuZCBsb3dlciBtYXN0LjwvZGVzYz4KICA8ZyBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJzcXVhcmUiIHN0cm9rZS1saW5lam9pbj0ibWl0ZXIiIHZlY3Rvci1lZmZlY3Q9Im5vbi1zY2FsaW5nLXN0cm9rZSI+CiAgICA8cGF0aCBkPSJNMjAgMTYgSDEwMCBMNjAgMTEyIFoiLz4KICAgIDxwYXRoIGQ9Ik02MCAxNiBWMTUwIi8+CiAgICA8cGF0aCBkPSJNNDAgMTEyIEg4MCIvPgogIDwvZz4KPC9zdmc+Cg=="
+    },
+    {
+      "key": "custom_indoor_telephone_1782992157874",
+      "name": "indoor telephone",
+      "dataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPg0KICA8IS0tIFRyaWFuZ2xlIC0tPg0KICA8cG9seWdvbiBwb2ludHM9IjMyLDEwIDEwLDUwIDU0LDUwIiAvPg0KICA8IS0tIElubmVyIHRlbGVwaG9uZSBzeW1ib2wgc2ltcGxpZmllZCBhcyBoYW5kc2V0IC0tPg0KICA8cGF0aCBkPSJNMjIsNDIgQzIyLDMyIDQyLDMyIDQyLDQyIiBzdHJva2Utd2lkdGg9IjQiLz4NCiAgPGNpcmNsZSBjeD0iMjIiIGN5PSI0MiIgcj0iMyIgZmlsbD0iY3VycmVudENvbG9yIi8+DQogIDxjaXJjbGUgY3g9IjQyIiBjeT0iNDIiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciIvPg0KPC9zdmc+"
+    },
+    {
+      "key": "custom_wifi_ap_1783054280002",
+      "name": "wifi ap",
+      "dataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPg0KICA8IS0tIE91dGVyIGNpcmNsZSAtLT4NCiAgPGNpcmNsZSBjeD0iMzIiIGN5PSIyOCIgcj0iMjAiLz4NCiAgPCEtLSBQbHVzIHNpZ24gY3Jvc3NoYWlyIC0tPg0KICA8bGluZSB4MT0iMzIiIHkxPSI4IiB4Mj0iMzIiIHkyPSI0OCIvPg0KICA8bGluZSB4MT0iMTIiIHkxPSIyOCIgeDI9IjUyIiB5Mj0iMjgiLz4NCiAgPCEtLSBUcmlhbmdsZSBpbiBib3R0b20gaGFsZiAtLT4NCiAgPHBvbHlnb24gcG9pbnRzPSIxMiwyOCA1MiwyOCAzMiw0OCIgZmlsbD0iY3VycmVudENvbG9yIi8+DQogIDwhLS0gTGFiZWwgQVAgLS0+DQogIDx0ZXh0IHg9IjMyIiB5PSI2MCIgZm9udC1zaXplPSIxMSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iY3VycmVudENvbG9yIiBzdHJva2U9Im5vbmUiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkFQPC90ZXh0Pg0KPC9zdmc+"
+    },
+    {
+      "key": "custom_tia_patch_panel_1783148331617",
+      "name": "tia patch panel",
+      "dataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPgogIDwhLS0gSG9yaXpvbnRhbCByZWN0YW5nbGUgYm9keSAtLT4KICA8cmVjdCB4PSI0IiB5PSIxOCIgd2lkdGg9IjU2IiBoZWlnaHQ9IjI4IiByeD0iMiIgcnk9IjIiIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjQiLz4KICA8IS0tIFBhdGNoIHBvcnQgdmVydGljYWwgbGluZXMvc2xvdHMgLS0+CiAgPGxpbmUgeDE9IjE0IiB5MT0iMjUiIHgyPSIxNCIgeTI9IjM5IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICA8bGluZSB4MT0iMjIiIHkxPSIyNSIgeDI9IjIyIiB5Mj0iMzkiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIuNSIvPgogIDxsaW5lIHgxPSIzMCIgeTE9IjI1IiB4Mj0iMzAiIHkyPSIzOSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMi41Ii8+CiAgPGxpbmUgeDE9IjM4IiB5MT0iMjUiIHgyPSIzOCIgeTI9IjM5IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICA8bGluZSB4MT0iNDYiIHkxPSIyNSIgeDI9IjQ2IiB5Mj0iMzkiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIuNSIvPgogIDxsaW5lIHgxPSI1NCIgeTE9IjI1IiB4Mj0iNTQiIHkyPSIzOSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMi41Ii8+Cjwvc3ZnPgo="
+    },
+    {
+      "key": "custom_camera_indoor_1783200524482",
+      "name": "camera indoor",
+      "dataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPg0KICA8IS0tIFRvcCBtb3VudGluZyBwbGF0ZSAtLT4NCiAgPGxpbmUgeDE9IjEyIiB5MT0iMTgiIHgyPSI1MiIgeTI9IjE4IiBzdHJva2Utd2lkdGg9IjQiLz4NCiAgPCEtLSBEb21lIGJvZHkgLS0+DQogIDxwYXRoIGQ9Ik0xNiwxOCBBMTYsMTYgMCAwLDAgNDgsMTgiIC8+DQogIDxsaW5lIHgxPSIxNiIgeTE9IjE4IiB4Mj0iNDgiIHkyPSIxOCIgLz4NCiAgPCEtLSBDYW1lcmEgTGVucyBkb3QgLS0+DQogIDxjaXJjbGUgY3g9IjMyIiBjeT0iMjYiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciIvPg0KICA8IS0tIElDIHRleHQgLS0+DQogIDx0ZXh0IHg9IjMyIiB5PSI0NCIgZm9udC1zaXplPSIxMiIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iY3VycmVudENvbG9yIiBzdHJva2U9Im5vbmUiIHRleHQtYW5jaG9yPSJtaWRkbGUiPklDPC90ZXh0Pg0KPC9zdmc+"
+    },
+    {
+      "key": "custom_horn_speaker_indoor_1783205758750",
+      "name": "horn speaker indoor",
+      "dataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPg0KICA8IS0tIE1lZ2FwaG9uZSBzb2xpZCBmaWxsIC0tPg0KICA8cGF0aCBkPSJNMTIsMjQgTDIyLDI0IEwzNiwxMiBMMzYsNTIgTDIyLDQwIEwxMiw0MCBaIiBmaWxsPSJjdXJyZW50Q29sb3IiLz4NCiAgPCEtLSBTb3VuZCB3YXZlcyAtLT4NCiAgPHBhdGggZD0iTTQyLDIwIEExNiwxNiAwIDAsMSA0Miw0NCIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMyIvPg0KICA8cGF0aCBkPSJNNDgsMTQgQTI0LDI0IDAgMCwxIDQ4LDUwIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIzIi8+DQo8L3N2Zz4="
+    },
+    {
+      "key": "custom_amp_1783206408091",
+      "name": "amp",
+      "dataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPg0KICA8cmVjdCB4PSIxMiIgeT0iMTIiIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgcng9IjIiLz4NCiAgPHRleHQgeD0iMzIiIHk9IjM3IiBmb250LXNpemU9IjE0IiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJjdXJyZW50Q29sb3IiIHN0cm9rZT0ibm9uZSIgdGV4dC1hbmNob3I9Im1pZGRsZSI+QU1QPC90ZXh0Pg0KPC9zdmc+"
+    },
+    {
+      "key": "custom_intercom_1783206596349",
+      "name": "intercom",
+      "dataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPgogIDwhLS0gUmVjdGFuZ2xlIGhvdXNpbmcgLS0+CiAgPHJlY3QgeD0iMTAiIHk9IjgiIHdpZHRoPSI0NCIgaGVpZ2h0PSI0OCIgcng9IjQiIHJ5PSI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSI0Ii8+CiAgPCEtLSBTcGVha2VyIGdyaWxsZSBob3Jpem9udGFsIGxpbmVzIC0tPgogIDxsaW5lIHgxPSIxOCIgeTE9IjE4IiB4Mj0iNDYiIHkyPSIxOCIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMi41Ii8+CiAgPGxpbmUgeDE9IjE4IiB5MT0iMjQiIHgyPSI0NiIgeTI9IjI0IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICA8bGluZSB4MT0iMTgiIHkxPSIzMCIgeDI9IjQ2IiB5Mj0iMzAiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIuNSIvPgogIDxsaW5lIHgxPSIxOCIgeTE9IjM2IiB4Mj0iNDYiIHkyPSIzNiIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMi41Ii8+CiAgPGxpbmUgeDE9IjE4IiB5MT0iNDIiIHgyPSI0NiIgeTI9IjQyIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICA8IS0tIENhbGwgYnV0dG9uIC0tPgogIDxjaXJjbGUgY3g9IjMyIiBjeT0iNTAiIHI9IjMiIGZpbGw9ImN1cnJlbnRDb2xvciIgc3Ryb2tlPSJub25lIi8+Cjwvc3ZnPgo="
+    },
+    {
+      "key": "custom_hss_1783206608686",
+      "name": "hss",
+      "dataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPg0KICA8cmVjdCB4PSIxMiIgeT0iMTIiIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgcng9IjIiLz4NCiAgPHRleHQgeD0iMzIiIHk9IjM3IiBmb250LXNpemU9IjE0IiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJjdXJyZW50Q29sb3IiIHN0cm9rZT0ibm9uZSIgdGV4dC1hbmNob3I9Im1pZGRsZSI+SFNTPC90ZXh0Pg0KPC9zdmc+"
+    },
+    {
+      "key": "custom_svg_1jo4q37",
+      "name": "outdoor-ptz-camera",
+      "dataUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTg0IiB2aWV3Qm94PSIwIDAgMjAwIDE4NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsbGVkYnk9InRpdGxlIGRlc2MiPgogIDx0aXRsZSBpZD0idGl0bGUiPk91dGRvb3IgUFRaIENhbWVyYTwvdGl0bGU+CiAgPGRlc2MgaWQ9ImRlc2MiPk91dGRvb3IgUFRaIGNhbWVyYSBzeW1ib2wgd2l0aCB0aGUgY29uZSByZXZlcnNlZCB0byB3aWRlbiB0b3dhcmQgdGhlIGZyb250IHJvdGF0aW9uIGhhbmRsZS48L2Rlc2M+CiAgPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNzA3MDcwIiBzdHJva2Utd2lkdGg9IjEuNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj4KICAgIDwhLS0gTWFpbiBjYW1lcmEgYm9keSAtLT4KICAgIDxwYXRoIGQ9Ik00OSAyOCBIMTExIEwxMjYgMzggVjk1IEwxMTEgMTA0IEg0OSBDNDMuNSAxMDQgNDAgMTAwLjUgNDAgOTUgVjM3IEM0MCAzMS41IDQzLjUgMjggNDkgMjggWiIvPgogICAgPCEtLSBCb2R5L2Zyb250IGRpdmlzaW9uIC0tPgogICAgPHBhdGggZD0iTTExMSAyOCBWMTA0Ii8+CiAgICA8IS0tIFJldmVyc2VkIGNvbmU6IGFwZXggYXQgY2FtZXJhIGJvZHksIHdpZGUgZW5kIGF0IGZyb250IC0tPgogICAgPHBhdGggZD0iTTEyNiA2Ni41IEwxNjYgMzggVjk3IFoiLz4KICAgIDwhLS0gRnJvbnQgcm90YXRpb24gaGFuZGxlIC8gcm91bmRlZCBmYWNlIC0tPgogICAgPHBhdGggZD0iTTE2NiAzOCBDMTcwIDM4IDE3MiA0MSAxNzIgNDUgVjkwIEMxNzIgOTQgMTcwIDk3IDE2NiA5NyBDMTYyIDk3IDE2MCA5NCAxNjAgOTAgVjQ1IEMxNjAgNDEgMTYyIDM4IDE2NiAzOCBaIi8+CiAgPC9nPgogIDx0ZXh0IHg9IjEwMCIgeT0iMTYyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMDAwMDAwIgogICAgICAgIGZvbnQtZmFtaWx5PSJBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQyIiBmb250LXdlaWdodD0iNDAwIj5QVFo8L3RleHQ+Cjwvc3ZnPgo="
+    },
+    {
+      "key": "custom_svg_abj6x2",
+      "name": "radio-outdoor-antenna",
+      "dataUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTYwIiB2aWV3Qm94PSIwIDAgMTIwIDE2MCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsbGVkYnk9InRpdGxlIGRlc2MiPgogIDx0aXRsZSBpZD0idGl0bGUiPk91dGRvb3IgcmFkaW8gYW50ZW5uYSBzeW1ib2w8L3RpdGxlPgogIDxkZXNjIGlkPSJkZXNjIj5PcGVuIGludmVydGVkIHRyaWFuZ3VsYXIgYW50ZW5uYSB3aXRoIGNlbnRlcmVkIHZlcnRpY2FsIGxpbmUsIGFwZXggY3Jvc3NiYXIsIGFuZCBsb3dlciBtYXN0LjwvZGVzYz4KICA8ZyBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJzcXVhcmUiIHN0cm9rZS1saW5lam9pbj0ibWl0ZXIiIHZlY3Rvci1lZmZlY3Q9Im5vbi1zY2FsaW5nLXN0cm9rZSI+CiAgICA8cGF0aCBkPSJNMjAgMTYgSDEwMCBMNjAgMTEyIFoiLz4KICAgIDxwYXRoIGQ9Ik02MCAxNiBWMTUwIi8+CiAgICA8cGF0aCBkPSJNNDAgMTEyIEg4MCIvPgogIDwvZz4KPC9zdmc+Cg=="
+    }
+  ]
+}
